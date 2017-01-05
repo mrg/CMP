@@ -1,3 +1,10 @@
+# This project/repository is now dead, but it has a new home at Apache proper.
+## The GitHub mirror is here:
+
+https://github.com/apache/cayenne-modeler
+
+---
+
 # Cayenne Modeler Prototype
 ## A more modern version of Cayenne Modeler
 
