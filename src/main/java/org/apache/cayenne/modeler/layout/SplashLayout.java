@@ -115,8 +115,11 @@ public class SplashLayout extends AbstractWindowLayout
 
     public void onOpenProjectSelected(final MouseEvent event)
     {
-        if (event.getClickCount() == 2)
-            openSelectedModel();
+        if (event.getClickCount() == 2){
+            if(projectListView.getItems().size() > 0){ // Refer : https://github.com/mrg/CMP/issues/11
+                openSelectedModel();
+            }
+        }
     }
 
     public void onKeyTyped(final KeyEvent event)
